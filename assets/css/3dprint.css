@@ -1,0 +1,103 @@
+html,body,.section-features,table,input[type=file],.row{
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.heading{
+    margin-top: 8%;
+}
+/* Heading part starts here */
+.name{
+   text-align: center;
+   font-size: 60px;
+   
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #fff;
+    
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+.det{
+    color: #fff;
+    font-size:26px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+/* Heading ends here */
+.spec{
+    font-size: 30px;
+    text-align: left;
+}
+td{
+    padding: 15px;
+}
+.o-switch label > input[type="radio"] {
+    display: none;
+}
+
+.imag{
+    background-color:lightgrey;
+    height: 410px;
+    border: 1.7px black dashed;
+    
+}
+.upl{
+    margin-left: 40%;
+}
+.upload{
+    
+    margin-left:40%
+}
+.sub{
+    margin-left: 45%;
+}
+h5{
+    text-align: center;
+}
+.row input[type=file]{
+    margin-left: 27%;
+    height: 50px;
+    font-weight: 300;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font: inherit;
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: 300;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+.quan{
+    padding: 5px;
+}
+form .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+form .col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.btn{
+    font-weight: 350;
+    font-size: 20px;
+    background-color: #6c757d;
+    border: 1PX solid #6c757d;
+    color: #FFFFFF;
+}
+.btn:hover,
+.btn:active {
+  background-color: #FFFFFF;
+  border: #6c757d;
+  border: 1PX solid #6c757d;
+}

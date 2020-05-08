@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>
@@ -6,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- dependencies should be loaded first  -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -23,14 +25,15 @@
         <link rel="stylesheet" type="text/css" href="/css/header.css">
         <!-- home-->
         <link rel="stylesheet" type="text/css" href="/css/home.css">
-        <link rel="stylesheet" type="text/css" href="/css/login.css">
+   
 
+        <!---if we added the link of stylesheet in particular ejs then it will we added here-->
+        <%- style %>
         <!-- footer -->
         <link rel="stylesheet" type="text/css" href="/css/footer.css">
-
         <!-- now queries should be loaded at last so that every css added above can be over written effectively-->
         <link rel="stylesheet" type="text/css" href="/css/queries.css">
-        <%- style %>
+        
     </head>   
         <body>
     
@@ -48,7 +51,7 @@
 
         <%- include('_footer'); %>
 
-        <%- script %>
+        
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
@@ -56,6 +59,7 @@
         <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
         <script src="/js/jquery.waypoints.min.js"></script>
         <script src="/js/script.js"></script>
-        <script src="/js/signup.js"></script>
+        <!--any script that is added particularly in any ejs will be added here-->
+        <%- script %>
     </body>
 </html>

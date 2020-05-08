@@ -1,0 +1,84 @@
+<link rel="stylesheet" type="text/css" href="/css/3dprint.css">
+<section class="section-start-recogniser section-features js--section-features" id="features">
+    <h2>Upload file to get your instant quote</h2>
+    <br>
+    <div class="container">
+        <form action="" method="post">
+            <h3 class="spec"> Choose specifications</h3>
+            <div class="row">
+                <div class="col">
+                    <table>
+                        <tr>
+                            <td>Unit:</td>
+                            <td>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-full">mm</button>
+                                    <button type="button" class="btn btn-secondary">cm</button>
+                                    <button type="button" class="btn btn-secondary">inch</button>
+                                  </div> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Process:</td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="FDM">FDM</option>
+                                    <option value="SLS">SLS</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Material:</td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="ABS">ABS</option>
+                                    <option value="TPU">TPU</option>
+                                    <option value="PLA">PLA</option>
+                                    <option value="MARBLE PLA">MARBLE PLA</option>
+                                    <option value="WOOD PLA">WOOD PLA</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Quality:</td>
+                            <td><select name="" id="">
+                                    <option value="">HIGH(0.10mm layers,40% infill)</option>
+                                    <option value="">LOW(0.25mm layers,10% infill)</option>
+                                    <option value="">MEDIUM(0.40mm layers,25% infill)</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Color:</td>
+                            <td><select name="" id="">
+                                    <option value="">RED</option>
+                                    <option value="">BLUE</option>
+                                    <option value="">BLACK</option>
+                                    <option value="">YELLOW</option>
+                                    <option value="">GREEN</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Quantity:</td>
+                            <td><input type="number" min="1" max="1000" placeholder="0" size="32" class="quan"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col imag">
+                    <br>
+                    <br>
+                    <br>
+                    <img class="upl" src="/images/3dprint/upl1.png" alt="">
+                    <br>
+                    <br>
+                    <h3 style="text-align: center;font-weight: 400;">Browse file to upload</h3>
+                    
+                    <input height="40px" type="file">
+
+                    <!-- FOR UPLOADING IMAGE -->
+                </div>
+            </div>
+            <button class="btn btn-secondary sub mt-4">Submit</button>
+        </form>
+    </div>
+</section>
+
